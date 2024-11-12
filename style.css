@@ -1,0 +1,152 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul pastel */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-bottom: 40px; /* Espaço para o rodapé */
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff6f61; /* Rosa pastel */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5em;
+    color: #ff6f61; /* Rosa pastel */
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos botões */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #ff5ca3; /* Rosa personalizado */
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #ff4593; /* Tom mais escuro de rosa */
+}
+
+.btn:active {
+    background-color: #ff337a; /* Rosa ainda mais escuro para o clique */
+}
+/* Estilo do botão rosa */
+.btn {
+    background-color: #ff5ca3; /* Rosa pastel */
+    color: white;
+    padding: 10px 20px;
+    border: none; /* Remove borda preta */
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #e25490; /* Cor um pouco mais escura ao passar o mouse */
+}
+/* Estilos do formulário para cadastro de insumos */
+.form-group {
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não ultrapasse o tamanho */
+}
+
+button.btn {
+    display: inline-block;
+    width: auto;
+}
+/* Estilo do botão voltar */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff5ca3; /* Cor rosa pastel */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-voltar i {
+    margin-right: 5px;
+}
+
+.btn-voltar:hover {
+    color: #e25490; /* Muda a cor quando o mouse passa por cima */
+}
+/* Estilos adicionais para o logo */
+.logo-container {
+    text-align: center; /* Centraliza o logo */
+    margin-top: 20px;  /* Margem superior de 20px */
+}
+
+.logo-container img {
+    max-width: 100%;  /* Ajusta o tamanho máximo da imagem */
+    height: auto;     /* Mantém a proporção da imagem */
+}
